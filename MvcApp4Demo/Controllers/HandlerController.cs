@@ -13,7 +13,7 @@ namespace MvcApp4Demo.Controllers
 
         public ActionResult Handler2()
         {
-            string s = "bbbbb";
+            string s = "bbbbb多几个字母";
             return new ContentResult() { Content="aaaa" };
         }
 
