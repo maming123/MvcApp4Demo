@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.WebPages;
+using MvcApp4Demo.Module.Utils;
 
 namespace MvcApp4Demo
 {
@@ -33,6 +34,9 @@ namespace MvcApp4Demo
             //如果是监测到手机 不建议用此法（因处理逻辑可能不同），建议跳转到新的手机处理域名中（跳转可在application.beginRequest管道中执行判断并跳转）
             //Windows Phone OS  iPhone  Android UC
             DisplayModeProvider.Instance.Modes.Insert(0, new DefaultDisplayMode("WAP") { ContextCondition = context => Utils.BaseCommon.IsFromMobile(context.Request.UserAgent) });
+
+            //注册Ninject IOC工厂
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
 
         }
         protected void Application_BeginRequest(object sender, EventArgs e)

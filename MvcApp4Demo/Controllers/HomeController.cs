@@ -3,13 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using MvcApp4Demo.Module.Email;
 namespace MvcApp4Demo.Controllers
 {
     public class HomeController : Controller
     {
 
-        //
+        private IEmailHelper emailHelper;
+        public HomeController(IEmailHelper helper)
+        {
+            emailHelper = helper;
+        }
+
+
+        public string SendEmail()
+        {
+           return emailHelper.SendEmail();
+        }
+
         // GET: /Home/
         [AllowAnonymous]
         public ActionResult Index(FormCollection formC,int id=0)

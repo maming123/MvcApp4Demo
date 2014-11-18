@@ -46,3 +46,8 @@ E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\obj\Debug\MvcApp4Demo.Tests.csprojRes
 E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\obj\Debug\MvcApp4Demo.Tests.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\obj\Debug\MvcApp4Demo.Tests.pdb
 E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\bin\Debug\Newtonsoft.JsonResult.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\bin\Debug\Ninject.Web.Common.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\bin\Debug\Ninject.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\bin\Debug\WebActivatorEx.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\bin\Debug\Ninject.Web.Common.xml
+E:\MyProject\MvcApp4Demo\MvcApp4Demo.Tests\bin\Debug\Ninject.xml

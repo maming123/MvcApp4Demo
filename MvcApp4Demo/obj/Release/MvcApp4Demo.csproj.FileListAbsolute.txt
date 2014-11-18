@@ -47,3 +47,12 @@ E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\zh-Hans\System.Web.WebPages.Razor.resou
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Release\MvcApp4Demo.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Release\MvcApp4Demo.pdb
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Release\MvcApp4Demo.csprojResolveAssemblyReference.cache
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Newtonsoft.JsonResult.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\RouteDebugger.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\WebActivatorEx.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.xml
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.xml
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.xml
