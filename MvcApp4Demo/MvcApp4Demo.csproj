@@ -181,12 +181,20 @@
     <Compile Include="WebForm\test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm\testjsapi.aspx.cs">
+      <DependentUpon>testjsapi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\testjsapi.aspx.designer.cs">
+      <DependentUpon>testjsapi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebService\WebSvr1.asmx.cs">
       <DependentUpon>WebSvr1.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\audio\song.mp3" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -247,9 +255,12 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="WebForm\test.aspx" />
+    <Content Include="WebForm\testjsapi.aspx" />
     <Content Include="WebService\WebSvr1.asmx" />
     <Content Include="Handler\Handler1.ashx" />
+    <Content Include="Content\audio\song.ogg" />
     <None Include="Properties\PublishProfiles\1.pubxml" />
+    <None Include="Properties\PublishProfiles\mm - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />

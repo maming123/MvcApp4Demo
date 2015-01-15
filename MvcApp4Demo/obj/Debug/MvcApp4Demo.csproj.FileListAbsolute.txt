@@ -55,3 +55,4 @@ E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\WebActivatorEx.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.xml
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.xml
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.xml
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Debug\MvcApp4Demo.csprojResolveAssemblyReference.cache

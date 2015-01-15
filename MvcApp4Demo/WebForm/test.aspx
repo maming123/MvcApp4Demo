@@ -8,10 +8,8 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
     <div>
     在mvc中 直接访问webform页面
     </div>
-    </form>
 </body>
 </html>
