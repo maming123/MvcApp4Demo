@@ -11,8 +11,8 @@ namespace MvcApp4Demo.WebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-                Response.Write(RouteData.Values["id"]);
+            Response.Write(System.Web.HttpContext.Current.Request.UserHostAddress);
+             //   Response.Write(RouteData.Values["id"]);
             
         }
     }

@@ -1,14 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Caching;
 using Newtonsoft.Json;
 
-namespace MvcApp4Demo.Utils
+namespace Module.Utils
 {
     public class BaseCommon
     {
+        /// <summary>
+        /// Core连接字符串
+        /// </summary>
+        public static string ConnectionString
+        {
+            get
+            {
+                return GetConnectionString("Core");
+            }
+        }
+        /// <summary>
+        /// 获取连接字符串
+        /// </summary>
+        /// <param name="connectionName"></param>
+        /// <returns></returns>
+        public static string GetConnectionString(string connectionName)
+        {
+            if (ConfigurationManager.ConnectionStrings[connectionName] != null)
+            {
+                return ConfigurationManager.ConnectionStrings[connectionName].ConnectionString;
+            }
+
+            return null;
+        }
+
+        private static Logger commonLogger = new Logger();
+
+        /// <summary>
+        /// 系统通用日志对象
+        /// </summary>
+        public static Logger CommonLogger
+        {
+            get
+            {
+                return commonLogger;
+            }
+        }
+
         /// <summary>
         /// 判断访问页面的来源。页面来自手机:true  来自其他浏览器：false
         /// </summary>

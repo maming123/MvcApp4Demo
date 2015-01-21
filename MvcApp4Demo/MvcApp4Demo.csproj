@@ -165,15 +165,62 @@
     <Compile Include="Module\Email\EmailHelper163.cs" />
     <Compile Include="Module\Email\EmailHelper.cs" />
     <Compile Include="Module\Email\IEmailHelper.cs" />
-    <Compile Include="Module\Utils\NinjectControllerFactory .cs" />
+    <Compile Include="Module\Utils\BaseCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\BaseHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\Database.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\ExceptionType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\GlobalModule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\FormValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\Header.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\HttpRequestHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\HttpWebRequestWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\RequestData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\RequestMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\HttpRequests\RequestResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\Logger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\LogType.cs" />
+    <Compile Include="Module\Utils\NinjectControllerFactory .cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\ReturnJsonType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\SqlHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module\Utils\UnitCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Module\WeiXin\ReceiveMsgManager.cs" />
     <Compile Include="Module\WeiXin\SendMsgManager.cs" />
+    <Compile Include="Module\WeiXin\WXJsSdkManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Module\Utils\BaseCommon.cs" />
-    <Compile Include="Module\Utils\BaseHandler.cs" />
-    <Compile Include="Module\Utils\ExceptionType.cs" />
-    <Compile Include="Module\Utils\GlobalModule.cs" />
-    <Compile Include="Module\Utils\ReturnJsonType.cs" />
     <Compile Include="WebForm\test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Module.Utils;
 
-namespace MvcApp4Demo.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     public class GlobalModule : IHttpModule
     {
@@ -28,7 +29,7 @@ namespace MvcApp4Demo.Utils
 
             string url = application.Request.Url.ToString();
 
-            if (Utils.BaseCommon.IsFromMobile(application.Request.UserAgent))
+            if (BaseCommon.IsFromMobile(application.Request.UserAgent))
             {
                 //application.Response.Redirect("http://手机网址");
             }

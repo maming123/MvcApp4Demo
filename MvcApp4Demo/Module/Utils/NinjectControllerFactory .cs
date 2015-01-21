@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using MvcApp4Demo.Module.Email;
 using Ninject;
-namespace MvcApp4Demo.Module.Utils
+namespace Module.Utils
 {
     public class NinjectControllerFactory:DefaultControllerFactory
     {

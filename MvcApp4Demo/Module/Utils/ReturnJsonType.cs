@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MvcApp4Demo.Utils
+namespace Module.Utils
 {
 
     public class ReturnJsonType

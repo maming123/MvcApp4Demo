@@ -6,6 +6,10 @@ E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\EntityFramework.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Microsoft.Web.Infrastructure.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Newtonsoft.Json.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Newtonsoft.JsonResult.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\RouteDebugger.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Net.Http.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Net.Http.Formatting.dll
@@ -19,7 +23,11 @@ E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Web.Razor.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Web.WebPages.Deployment.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Web.WebPages.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Web.WebPages.Razor.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\WebActivatorEx.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\WebGrease.dll
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.xml
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.xml
+E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.xml
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\EntityFramework.xml
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Newtonsoft.Json.xml
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\System.Net.Http.xml
@@ -47,12 +55,3 @@ E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\zh-Hans\System.Web.WebPages.Deployment.
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Debug\MvcApp4Demo.dll
 E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Debug\MvcApp4Demo.pdb
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Newtonsoft.JsonResult.dll
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.dll
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.dll
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.dll
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\WebActivatorEx.dll
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.xml
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Common.xml
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\bin\Ninject.Web.Mvc.xml
-E:\MyProject\MvcApp4Demo\MvcApp4Demo\obj\Debug\MvcApp4Demo.csprojResolveAssemblyReference.cache

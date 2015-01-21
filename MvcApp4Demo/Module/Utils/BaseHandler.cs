@@ -5,7 +5,7 @@ using System.Text;
 using System.Web;
 using System.Web.SessionState;
 
-namespace MvcApp4Demo.Utils
+namespace Module.Utils
 {
     public class BaseHandler : IHttpHandler, IRequiresSessionState
     {
