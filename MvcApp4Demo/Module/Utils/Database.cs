@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Module.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     internal class Database
     {

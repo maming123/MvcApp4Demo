@@ -36,11 +36,16 @@ namespace MvcApp4Demo.Module.WeiXin
             string rcontent = ((ReceiveTextMsgItem)_ReceiveMsgItem).Content;
             if (rcontent == "1")
             {
-                txtMsgItem.Content = "1、锄禾日当午";
+                txtMsgItem.Content = "锄禾日当午";
+            }
+            else if (rcontent == "龙博" || rcontent == "东村")
+            {
+                //TODO: 调用Housemanager 获取官网租房信息
+                txtMsgItem.Content = new HouseManager(rcontent).GetMsg();
             }
             else
             {
-                txtMsgItem.Content = "您输入的内容是："+rcontent;
+                txtMsgItem.Content = "您输入的内容是：" + rcontent;
             }
 
             return txtMsgItem.GetMsgItemToXml();

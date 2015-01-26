@@ -6,7 +6,7 @@ using System.Text;
 using System.IO;
 
 
-namespace Module.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     public class Logger
     {

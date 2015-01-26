@@ -16,7 +16,7 @@ using System.Text;
 using System.IO;
 using System.Net;
 
-namespace Module.Utils.HttpRequests
+namespace MvcApp4Demo.Module.Utils.HttpRequests
 {
     /// <summary>
     /// HttpWebRequest调用包装

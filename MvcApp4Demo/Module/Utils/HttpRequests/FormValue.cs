@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Module.Utils.HttpRequests
+namespace MvcApp4Demo.Module.Utils.HttpRequests
 {
     public class FormValue
     {

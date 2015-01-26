@@ -6,7 +6,7 @@ using System.IO;
 using System.Net;
 using System.Web;
 
-namespace Module.Utils.HttpRequests
+namespace MvcApp4Demo.Module.Utils.HttpRequests
 {
     public class HttpRequestHelper
     {

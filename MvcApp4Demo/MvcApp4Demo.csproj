@@ -217,6 +217,7 @@
     <Compile Include="Module\Utils\UnitCommon.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Module\WeiXin\HouseManager.cs" />
     <Compile Include="Module\WeiXin\ReceiveMsgManager.cs" />
     <Compile Include="Module\WeiXin\SendMsgManager.cs" />
     <Compile Include="Module\WeiXin\WXJsSdkManager.cs" />
@@ -303,6 +304,7 @@
     </Content>
     <Content Include="WebForm\test.aspx" />
     <Content Include="WebForm\testjsapi.aspx" />
+    <Content Include="WebForm\XMLFile1.xml" />
     <Content Include="WebService\WebSvr1.asmx" />
     <Content Include="Handler\Handler1.ashx" />
     <Content Include="Content\audio\song.ogg" />

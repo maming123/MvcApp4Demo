@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Net;
 
-namespace Module.Utils.HttpRequests
+namespace MvcApp4Demo.Module.Utils.HttpRequests
 {
     public class RequestData
     {

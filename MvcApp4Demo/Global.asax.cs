@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.WebPages;
-using Module.Utils;
+using MvcApp4Demo.Module.Utils;
 
 namespace MvcApp4Demo
 {

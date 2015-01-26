@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.Caching;
 using Newtonsoft.Json;
 
-namespace Module.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     public class BaseCommon
     {

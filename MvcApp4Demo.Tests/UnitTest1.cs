@@ -25,5 +25,10 @@ namespace MvcApp4Demo.Tests
            //string ss = "C931F576498A3A6BF9CF07072230FDAF8EBD0A66".ToLower();
             string s = new WXJsSdkManager("http://mm8.iego.cn/WebForm/testjsapi.aspx").Signature;
         }
+         [TestMethod]
+         public void GetHtmlFromUriTest()
+         {
+             string s = new HouseManager("龙博").GetMsg();
+         }
     }
 }

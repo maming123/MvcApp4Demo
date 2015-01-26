@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Module.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     class LogType
     {

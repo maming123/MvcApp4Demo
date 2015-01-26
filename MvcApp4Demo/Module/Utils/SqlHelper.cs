@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
-namespace Module.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     public class SqlHelper
     {

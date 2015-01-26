@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.UI.WebControls;
 using System.Web.UI;
 
-namespace Module.Utils
+namespace MvcApp4Demo.Module.Utils
 {
     /// <summary>
     /// UnitCommon 的摘要说明

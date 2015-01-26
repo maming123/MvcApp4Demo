@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
-using Module.Utils;
-using Module.Utils.HttpRequests;
+using MvcApp4Demo.Module.Utils;
+using MvcApp4Demo.Module.Utils.HttpRequests;
 
 namespace MvcApp4Demo.Module.WeiXin
 {

@@ -77,6 +77,8 @@ namespace MvcApp4Demo.API
 
                     SendMsgManager smm = new SendMsgManager(receivetxtMsgItem);
                     r = smm.GetTextMsgItemToXml();
+                    WriteLog("返回的消息:" + r);
+
                 }
             }
             
